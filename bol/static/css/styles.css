@@ -1,0 +1,277 @@
+html, body {
+    font-family: 'Calibri';
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 1206px;
+
+}
+a {
+    color: #0059b2;
+    text-decoration: none;
+}
+a:hover {
+    color: #CC0000;
+    text-decoration: underline;
+}
+
+ul.mainmenu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #161a1e;
+    height: 80px;
+    margin: 0;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    font-size: 30px;
+    overflow: hidden;
+    text-shadow: 3px 3px 3px #000;
+}
+ul.mainmenu li {
+    text-shadow: 3px 3px 3px #000;
+    margin: 18px 40px 0 50px;
+}
+ul.mainmenu li.last {float: right;}
+
+ul.mainmenu li a {
+    text-shadow: 3px 3px 3px #000;
+    color: #CCFFCA;
+    text-decoration: none;
+}
+ul.mainmenu li a:hover {
+    color: wheat;
+}
+
+.test li{
+list-style-type: circle;
+    font-size:24px;
+    color: #3F4137;
+    font-family: 'Calibri';
+}
+
+.clear {clear: both;}
+
+
+.form-contact input[type=submit], textarea {
+    font-size: 20px;
+}
+
+.form-contact label {
+    display: inline-block;
+    min-width: 150px;
+}
+.form-contact p {margin: 10px 0 10px 0;}
+.form-contact input[type=submit], textarea {
+    font-size: 20px;
+}
+.kn {
+    margin-left: 40%;
+    text-align:center;
+}
+.centr{
+    display: flex;
+    justify-content: center;
+}
+.flash {
+    display: flex;
+    height :40px;
+    width: 400px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+}
+.flash.success{
+border: 4px solid #21DB56;
+background: #AEFFC5;
+    text-align:center;
+}
+.flash.error {
+border: 5px solid #FF4343;
+background: #FF9C9C;
+    text-align:center;
+}
+
+.header-img{
+    display: block;
+    background-image: url(	https://kakayaraznica.ru/wp-content/uploads/2021/09/bolnicza.jpg);
+    width: 1205px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.news{
+    text-align: center;
+}
+
+.karta{
+    text-align: center;
+}
+
+.wrapper{
+    background-color: #808080;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.registr{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registr input{
+    font-size: 25px;
+}
+.registr p{
+    font-size: 25px;
+}
+.regi{
+    width: 325px;
+    height: 200px;
+    background: white;
+    border: 10px groove #ffa500;
+}
+.knpk{
+    margin-left: 18%;
+    height:40px;
+    width: 200px;
+    text-align:center;
+}
+.login{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login input{
+    font-size: 25px;
+}
+
+.log{
+    background: white;
+    width: 325px;
+    height: 200px;
+    border: 10px groove #ffa500;
+}
+
+.otz{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+.ostusl{
+    display: flex;
+    justify-content: center;
+}
+.otziv{
+    display: flex;
+    margin-top: 10px;
+    background: #f4f4f4;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.uslug{
+    display: flex;
+    margin-top: 10px;
+    background: #f4f4f4;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.uslug p {
+    font-size: 25px;
+}
+.otziv p {
+    font-size: 25px;
+}
+.login p{
+    font-size: 25px;
+}
+
+.pofil {
+    display: flex;
+}
+
+
+.ssil{
+    display: flex;
+    justify-content: center;
+}
+
+.ssil a{
+    font-size: 25px;
+    height: 100px;
+}
+
+.footer-block {
+    width: 1205px;
+    margin: 0px auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#161a1e;
+    color:white;
+    text-shadow: 3px 3px 3px #000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer li {
+    display: inline-block;
+    padding-left: 45px;
+}
+
+.footer li>a i{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.vrach{
+    text-align: center;
+    display: flex;
+    width: 1206px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 100px;
+    background-color: #808080 ;
+}
+
+.vrachi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 5px;
+    background: #808080;
+}
+
+.h1{
+    background-color: #808080;
+    padding-top: 1px;
+}
+
+.profil{
+    text-align: center;
+    padding-bottom: 300px;
+}

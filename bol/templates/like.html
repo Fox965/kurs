@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+{{super()}}
+<div class="wrapper">
+<h1>Отзывы о нас</h1>
+{%- block like -%}
+        {% for n in like -%}
+        <div class="otziv">
+        <p>{{ n['fio']}} - {{ n['email'] }} - {{ n['messege'] }}</p>
+        </div>
+        {% endfor -%}
+
+{%- endblock like -%}
+</div>
+{% endblock %}
