@@ -70,7 +70,7 @@ class FDataBase:
 
     def add_uslug(self, fio, contact, uslugi):
         try:
-            self.__cursor.execute("insert into vibrusl values(NULL, ?, ?, ?)", (fio, contact, uslugi))
+            self.__cursor.execute("insert into uslugi values(NULL, ?, ?, ?)", (fio, contact, uslugi))
             self.__db.commit()
         except sqlite3.Error as e:
             print("Ошибка добавления меню в БД " + str(e))
