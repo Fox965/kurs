@@ -42,7 +42,16 @@ def otzivi():
         else:
             flash('Ошибка, мало символов', category='error')
     return render_template('otzivi.html', title='Профиль', menu=menu)
-'''Подключение БД'''
+
+@app.route('/zapis' , methods=["POST", "GET"] )
+def zapis():
+    if request.method == "POST":
+        if len(request.form['username']) > 2:
+            flash('Вы записаны, наш оператор свяжется с вами', category='success')
+        else:
+            flash('Ошибка, мало символов', category='error')
+    return render_template('zapis.html', title='Профиль', menu=menu)
+
 def get_db():
     if not hasattr(g,'link_db'):
         g.link_db = connect_db()
